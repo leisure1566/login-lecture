@@ -15,6 +15,7 @@ app.set("view engine", "ejs");
 
 
 app.use("/", home); //use -> 미들웨어를 등록하는 메소드
+app.use(express.static(`${__dirname}/src/public`));
 
 
 module.exports = app;
