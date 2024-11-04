@@ -11,7 +11,7 @@ login : (req, res) =>{
 
 const process = {
     login : (req, res) =>{
-        console.log(req);
+        console.log(req.body);
     }
 }
 
